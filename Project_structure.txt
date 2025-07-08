@@ -1,0 +1,11 @@
+Car_milage_prediction_sgd/
+│
+├── Car_milage_prediction_SGD.ipynb        # Jupyter notebook for data analysis and modeling
+├── Car_mileage_pred_model_SGD.pkl         # Saved SGD+GridSearchCV regression model (pickle)
+├── scaler.pkl                            # Saved StandardScaler (pickle)
+├── app.py                                # (Optional) Flask app for model deployment
+├── Project_structure.txt                 # Project structure description (this file)
+├── templates/
+│    └── index.html                        # HTML template for web interface (if using Flask)
+└── static/
+     └── style.css                          # CSS file for styling the web interface (if using Flask)   
